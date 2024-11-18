@@ -32,7 +32,7 @@
         <input type="email" id="email" name="email" value="{{ old('email') }}">
 
         <label>Password</label>
-        <input type="password" id="password" name="password">
+        <input type="password" id="password" name="password" required>
         <br><br>
 
         <label for="password_confirmation" class="col-md-4 col-form-label text-md-end text-start">Confirm Password</label>
